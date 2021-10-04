@@ -10,6 +10,7 @@ public class movement : MonoBehaviour
     public GameObject player;
     public Rigidbody rb;
     public Animator anim;
+    public AudioSource CoinPickUp;
 
     void Awake()
     {
@@ -55,11 +56,19 @@ public class movement : MonoBehaviour
 
         player.transform.rotation = Quaternion.Euler(player.transform.rotation.eulerAngles.x, Camera.main.transform.eulerAngles.y, player.transform.rotation.eulerAngles.z);
 
-
+        
 
         if (PlayerPrefs.GetInt("CoinCount") >= 10)
         {
             SceneManager.LoadScene("End");
+        }
+    }
+
+    void OnCollisionEnter(Collision col)
+    {
+        if (col.gameObject.tag == "Coin")
+        {
+            CoinPickUp.Play();
         }
     }
 }
