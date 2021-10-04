@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 0d5771081eb9abb43b1792b52260d914, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.17276844, g: 0.21589246, b: 0.2978263, a: 1}
+  m_IndirectSpecularColor: {r: 0.25810277, g: 0.6908051, b: 0.81899595, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,7 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: c8da3ba6a1ab39d41b3bfd05ca176249,
+    type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -2718,7 +2719,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 424822988}
-  m_LocalRotation: {x: -0.000000039991185, y: 0.8170513, z: -0.57656497, w: -0.000000056671592}
+  m_LocalRotation: {x: 0.000000039991185, y: 0.8170513, z: -0.57656497, w: 0.000000056671592}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2856,7 +2857,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7872914928149712408, guid: bbcdb062e11798341960c4484657d57a, type: 3}
+    - {fileID: 1398162557086768612, guid: bbcdb062e11798341960c4484657d57a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: bbcdb062e11798341960c4484657d57a, type: 3}
 --- !u!1001 &443217968
 PrefabInstance:
@@ -6360,7 +6363,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: -0.0000000601704, y: 0.8002026, z: -0.5997297, w: -0.00000008028427}
+  m_LocalRotation: {x: -0.000000060170294, y: 0.8002026, z: -0.5997297, w: -0.00000008028418}
   m_LocalPosition: {x: 0, y: 4.0600004, z: -3.86}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -6895,7 +6898,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1398162557086768612, guid: bbcdb062e11798341960c4484657d57a, type: 3}
+    - {fileID: 7872914928149712408, guid: bbcdb062e11798341960c4484657d57a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: bbcdb062e11798341960c4484657d57a, type: 3}
 --- !u!1001 &1004340030
 PrefabInstance:
@@ -10623,7 +10628,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1664765642}
-  m_LocalRotation: {x: -0.000000060170635, y: 0.8002027, z: -0.59972966, w: -0.000000080284025}
+  m_LocalRotation: {x: -0.000000060170635, y: 0.8002027, z: -0.59972966, w: -0.00000008028401}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -11036,7 +11041,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7872914928149712408, guid: bbcdb062e11798341960c4484657d57a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: bbcdb062e11798341960c4484657d57a, type: 3}
 --- !u!4 &1777471236 stripped
 Transform:
@@ -11249,7 +11255,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7872914928149712408, guid: bbcdb062e11798341960c4484657d57a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: bbcdb062e11798341960c4484657d57a, type: 3}
 --- !u!1001 &1796624694
 PrefabInstance:
